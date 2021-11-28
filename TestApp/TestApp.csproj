@@ -74,11 +74,5 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\zatca\zatca.einvoicing.csproj">
-      <Project>{a91344db-cb5a-48d0-b877-30230a778dac}</Project>
-      <Name>zatca.einvoicing</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
